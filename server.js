@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const opn = require('opn');
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -20,5 +19,4 @@ app.post('/api/world', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`)
-  opn('http://localhost:5000/api/hello');
 });

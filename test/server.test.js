@@ -1,11 +1,10 @@
 const request = require('supertest');
-const server = require('../server.js');
+const app = require('../app.js');
 
 describe('test /api/hello', () => {
-  test('it should respond with 200 code', (done) => {
-    request(server).get('/api/hello').then((res) => {
-      expect(res.statusCode).toBe(200);
-      done();
-    });
+  it('should respond with 200 code', (done) => {
+    request(app)
+      .get('/api/hello')
+      .expect(200, done);
   });
 });

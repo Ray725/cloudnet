@@ -8,3 +8,13 @@ describe('test /api/hello', () => {
       .expect(200, done);
   });
 });
+
+
+describe('test /api/getVar', () => {
+  it('should respond with 200 code', (done) => {
+    request(app)
+      .get('/api/getVar')
+      .expect(200, done);
+  });
+});
+

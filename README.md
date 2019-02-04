@@ -1,3 +1,5 @@
+http://18.223.168.60:8080/job/cloudnet/5/badge/icon
+
 [![Build Status](http://18.223.168.60:8080/job/cloudnet/badge/icon)](http://18.223.168.60:8080/job/cloudnet/)
 
 [![Build Status](http://18.223.168.60:8080/buildStatus/icon?job=cloudnet)](http://18.223.168.60:8080/job/cloudnet)

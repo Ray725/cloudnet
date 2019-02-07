@@ -1,7 +1,3 @@
-![Build Status](http://18.223.168.60:8080/job/cloudnet/5/badge/icon)
-
-test
-
 https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
